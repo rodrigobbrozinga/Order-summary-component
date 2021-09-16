@@ -1,3 +1,7 @@
+html, body{
+    background: #F2F2F2;
+}
+
 .card {
     font-family: 'Red Hat Display', sans-serif;
     width: 450px;
@@ -108,10 +112,11 @@
 
 .btn-primary {
     position: absolute;
-left: 10.67%;
-right: 10.67%;
-top: 78.48%;
-bottom: 14.35%;
+    left: 10.67%;
+    right: 10.67%;
+    top: 78.48%;
+    bottom: 14.35%;
+    
 }
 
 .botao-secundario {
@@ -134,7 +139,20 @@ bottom: 14.35%;
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    position: absolute;
+    left:  570px;
+    bottom: -250px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.bg {
+    position: absolute;
+    width: 1440px;
+    height: 437px;
+    left: 0px;
+    top: 0px;
+
+    background: #F2F2F2;
 }
