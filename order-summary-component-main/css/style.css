@@ -1,0 +1,140 @@
+.card {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 450px;
+    height: 697px;
+    left: 495px;
+    top: 102px;
+}
+
+.card-title {
+    position: absolute;
+    height: 37px;
+    left: 10.67%;
+    right: 10.67%;
+    top: calc(50% - 37px/2 - 65px);
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+
+    text-align: center;
+
+    color: #1F2E55;
+}
+
+.card-text {
+    position: absolute;
+    height: 78px;
+    left: 10.67%;
+    right: 10.67%;
+    top: calc(50% - 78px/2 + 9.5px);
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: center;
+
+    color: #717FA6;
+}
+
+.plan {
+    position: absolute;
+    width: 354px;
+    height: 98px;
+    left: 48px;
+    top: 417px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-icon {
+    
+    left: 0%;
+    right: 84.31%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #DFE6FB;
+}
+
+.plan-title {
+    position: absolute;
+    height: 21px;
+    top: calc(50% - 21px/2 - 13.5px);
+    left: 20%;
+    right: 50%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #1F2E55;
+}
+
+.plan-price {
+    position: absolute;
+    height: 21px;
+    top: calc(50% - 21px/2 + 13.5px);
+    left: 20%;
+    right: 50%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #717FA6;
+}
+
+.plan-change {
+    margin-left: 30%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-decoration-line: underline;
+
+    color: #382AE1;
+}
+
+.btn-primary {
+    position: absolute;
+left: 10.67%;
+right: 10.67%;
+top: 78.48%;
+bottom: 14.35%;
+}
+
+.botao-secundario {
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 39.11%;
+    right: 39.56%;
+    top: calc(50% - 20px/2 + 290.5px);
+    text-decoration: none;
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #717FA6;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
